@@ -1,0 +1,27 @@
+{
+  "module_id": "wavewarp",
+  "sections": [
+    {
+      "title": "Overview",
+      "content": [
+        "WaveWarp is an experimental Schwung sound generator built from the GPLv3 Vital source code.",
+        "It does not bundle Vital factory presets, banks, skins, or Vital branding assets.",
+        "This build does include a small bank of CC0 third-party presets with attribution kept in the module package."
+      ]
+    },
+    {
+      "title": "Bundled Presets",
+      "content": [
+        "Bundled presets come from Abstraction Mage's Vital preset pack, distributed under CC0 1.0.",
+        "Attribution and source details are included under the module's docs folder out of respect for the original author."
+      ]
+    },
+    {
+      "title": "Current Scope",
+      "content": [
+        "WaveWarp exposes a reduced parameter set focused on oscillator shape, voice envelope, mix, macros, and a small FX section.",
+        "Use the preset browser in Schwung to reach the bundled sounds quickly, then tweak from the hardware controls."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+WaveWarp bundled preset attribution
+
+Preset pack:
+- Abstraction Mage - Vital-Presets
+- Source: https://github.com/abstractionmage/Vital-Presets
+- License: CC0 1.0 Universal
+
+Bundled files:
+- Curious Bass.vital
+- Hybrid Trap KickSnare.vital
+- Sirenengesang.vital
+- Stereo Destructor.vital
+
+WaveWarp includes this curated subset for tester convenience and keeps attribution on purpose.

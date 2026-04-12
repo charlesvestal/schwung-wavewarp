@@ -1,0 +1,21 @@
+{
+  "id": "wavewarp",
+  "name": "WaveWarp",
+  "abbrev": "WW",
+  "version": "0.3.1",
+  "description": "Experimental spectral warping wavetable synth derived from GPLv3 Vital source, with bundled CC0 presets",
+  "author": "Andre Louis (DSP: Matt Tytel/Vital)",
+  "license": "GPL-3.0",
+  "ui": "ui.js",
+  "dsp": "dsp.so",
+  "api_version": 2,
+  "capabilities": {
+    "audio_out": true,
+    "audio_in": false,
+    "midi_in": true,
+    "midi_out": false,
+    "aftertouch": true,
+    "chainable": true,
+    "component_type": "sound_generator"
+  }
+}
