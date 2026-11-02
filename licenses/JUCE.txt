@@ -1,0 +1,49 @@
+JUCE (as vendored in the Vital source tree, third_party/JUCE)
+Copyright (c) 2020 - Raw Material Software Limited
+
+WaveWarp compiles these JUCE modules into dsp.so: juce_core, juce_audio_basics,
+juce_audio_formats, juce_data_structures, juce_dsp, juce_events.
+
+juce_core, juce_audio_basics and juce_events are provided under the ISC
+licence (notice reproduced verbatim below). juce_audio_formats,
+juce_data_structures and juce_dsp are used under the GNU General Public License v3, the
+licence of WaveWarp as a whole (see ../LICENSE).
+
+--- juce_core / juce_audio_basics / juce_events licence notice ---
+
+   This file is part of the JUCE library.
+   Copyright (c) 2020 - Raw Material Software Limited
+
+   JUCE is an open source library subject to commercial or open-source
+   licensing.
+
+   The code included in this file is provided under the terms of the ISC license
+   http://www.isc.org/downloads/software-support-policy/isc-license. Permission
+   To use, copy, modify, and/or distribute this software for any purpose with or
+   without fee is hereby granted provided that the above copyright notice and
+   this permission notice appear in all copies.
+
+   JUCE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL WARRANTIES, WHETHER
+   EXPRESSED OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR PURPOSE, ARE
+   DISCLAIMED.
+
+--- juce_audio_formats / juce_data_structures / juce_dsp licence notice ---
+
+   This file is part of the JUCE library.
+   Copyright (c) 2020 - Raw Material Software Limited
+
+   JUCE is an open source library subject to commercial or open-source
+   licensing.
+
+   By using JUCE, you agree to the terms of both the JUCE 6 End-User License
+   Agreement and JUCE Privacy Policy (both effective as of the 16th June 2020).
+
+   End User License Agreement: www.juce.com/juce-6-licence
+   Privacy Policy: www.juce.com/juce-privacy-policy
+
+   Or: You may also use this code under the terms of the GPL v3 (see
+   www.gnu.org/licenses).
+
+   JUCE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY, AND ALL WARRANTIES, WHETHER
+   EXPRESSED OR IMPLIED, INCLUDING MERCHANTABILITY AND FITNESS FOR PURPOSE, ARE
+   DISCLAIMED.

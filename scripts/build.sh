@@ -95,5 +95,17 @@ cp build/dsp.so dist/wavewarp/dsp.so
 chmod +x dist/wavewarp/dsp.so
 cp -r src/presets dist/wavewarp/presets
 
+# Licence texts. dsp.so is GPL-3.0 (Vital); the third-party code it compiles
+# in (JUCE, kissfft, concurrentqueue, nlohmann/json, FLAC, Ogg Vorbis) needs
+# its notice to travel with the binary. Copies are vendored under licenses/
+# because the Vital tree is outside this repo. Unconditional on purpose: a
+# missing file must fail the build rather than ship without it.
+mkdir -p dist/wavewarp/licenses
+cp LICENSE dist/wavewarp/LICENSE
+for f in JUCE.txt kissfft-BSD-3-Clause.txt concurrentqueue.txt nlohmann-json-MIT.txt \
+         FLAC-BSD-3-Clause.txt OggVorbis-BSD-3-Clause.txt; do
+    cp "licenses/$f" "dist/wavewarp/licenses/$f"
+done
+
 cd dist
 tar -czvf wavewarp-module.tar.gz wavewarp/
